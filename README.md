@@ -11,10 +11,10 @@ Sistema de eventos encomendado pela Morena.
 
 1. Clone o repositório
 2. Crie um virtualenv com Python 3.5
-3. Ativo o virtualenv 
+3. Ative o virtualenv 
 4. Instale as dependências
 5. Configure a instância com o .env
-6. Execute os test
+6. Execute os testes
 
 ```console
 git clone git@github.com:leonardom/eventex.git wttd
@@ -29,7 +29,7 @@ manage test
 
 ## Como fazer o deploy
 
-1. Crie um instância no Heroku
+1. Crie uma instância no Heroku
 2. Envie as configurações para o Heroku
 3. Defina uma SECRET_KEY segura para a instância
 4. Defina DEBUG=False
