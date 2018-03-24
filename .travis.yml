@@ -4,6 +4,7 @@ python:
 
 install:
   - cp contrib/.env-sample .env
+  - easy_install distribute
   - pip install -q -r requirements.txt
 
 script:
