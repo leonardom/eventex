@@ -3,7 +3,6 @@
 Sistema de eventos encomendado pela Morena.
 
 [![Build Status](https://travis-ci.org/leonardom/eventex.svg?branch=master)](https://travis-ci.org/leonardom/eventex)
-
 [![Code Health](https://landscape.io/github/leonardom/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/leonardom/eventex/master)
 
 
@@ -21,7 +20,7 @@ git clone git@github.com:leonardom/eventex.git wttd
 cd wttd
 python -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/.env-sample .env
 manage test
 ```
